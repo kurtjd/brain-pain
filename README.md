@@ -2,6 +2,10 @@ Simon
 ======
 A command-line version of the classic Simon game.
 
+Controls
+========
+```TODO```
+
 Requirements
 ============
 * Curses
