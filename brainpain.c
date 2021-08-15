@@ -183,7 +183,7 @@ void draw_game_board(const int startx, const int starty, const int hightlight)
 void draw_screen(const int boardx, const int boardy, const int highlight, const int score, const char message[])
 {
     clear();
-    mvprintw(boardy - 1, boardx + 1, "nSimon v1.0");
+    mvprintw(boardy - 1, boardx + 1, "Brain Pain v1.0");
     mvprintw(boardy - 1, boardx + QUAD_WIDTH + 3, "Score: %d", score);
     draw_game_board(boardx, boardy, highlight);
     mvprintw(boardy + QUAD_HEIGHT * 2, boardx + 4, "Press:");
