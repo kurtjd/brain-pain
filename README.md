@@ -1,6 +1,6 @@
-Simon
+Brain Pain
 ======
-A command-line version of the classic Simon game.
+A command-line clone of the classic Simon game.
 
 Controls
 ========
@@ -14,12 +14,12 @@ Build Procedures
 =================
 Game is only a single file. Just link ncurses and compile, like so:
 
-```gcc nsimon.c -lncurses -o nsimon```
+```gcc brainpain.c -lncurses -o brainpain```
 
 If your compiler doesn't default to the C99 standard, make sure to explicity state it, like so:
 
-```gcc -std=gnu99 nsimon.c -lncurses -o nsimon```
+```gcc -std=gnu99 brainpain.c -lncurses -o brainpain```
 
 Run
 ===
-```./nsimon```
+```./brainpain```
