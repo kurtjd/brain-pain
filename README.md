@@ -1,10 +1,12 @@
+![Brain Pain](https://raw.githubusercontent.com/kurtjd/brain-pain/master/brainpain.png)
+
 Brain Pain
 ======
 A command-line clone of the classic Simon game.
 
 Controls
 ========
-```TODO```
+* Press keys 1-4 to select the corresponding quadrant.
 
 Requirements
 ============
